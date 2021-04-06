@@ -1,0 +1,55 @@
+Est Strategy Steps – IDTS (class)
+• Assess Testability – Each factor on a scale of 1 to 5;
+– Operability - 4
+– Controllability – 5 (since automation / performance testing will be applicable)
+– Observability – 5 (since lot of end user testing is involved)
+– Simplicity - 5 (since lot of end user testing is involved)
+– Understandability - 4
+– Suitability - 3
+– Stability - 2
+• 1 – Low; 5 – High; All low factors to be -  marked as it will affect test plan adversely
+• Assess Test factors that Must  be considered for testing the software
+– Authorization
+– File Integrity
+– Continuity of Processing
+– Access Control
+– Reliability
+– Performance
+• Identify lifecycle stages when V & V strategy should be applied
+– Authorization – Integration Testing
+– Correctness-Integration Testing
+        Contuinity of Processing-Post UAT
+        Access Control- System Testing
+        Reliability-Production
+        Performance-System Testing
+        Integrity-System Testing
+• Assess drivers that would influence the testing
+– Authorization – Integration Testing – Quality Control
+– File Integrity – System Testing - Training
+– Audit Trail – UAT – Planning - Use of Process
+– Continuity of Processing – Post UAT (production) – Management Support
+– Access Control – System Testing – Training
+– Reliability – Post UAT (production) – Efficiency
+– Performance – System Testing – Tools
+• Determine for life cycle/factor combinations (Methodology/Approach/Focus/Method)
+– Authorization – Integration Testing (Verification/Black box/Functional/Dynamic)
+– File Integrity – System Testing  (Verification/Whitebox/Structural/Dynamic)
+– Audit Trail – UAT  (Validation/Blackbox/Functional/Dynamic)
+– Continuity of Processing – Post UAT (production)    (Validation/Blackbox/Functional/Dynamic)
+– Access Control – System Testing   (Verification/Blackbox/Functional/Dynamic)
+– Reliability – Post UAT (production)   (Validation/Blackbox/Functional/Dynamic)
+– Performance – System Testing   (Verification/Blackbox/Functional/Dynamic)
+
+
+Test Plan – IDTS
+1. Test items – IDTS Application Name
+2. Software risk issues – Security of the application, Performance, Covering all OS/Browser combinations, Live feed testing
+3. Features to be tested -Admin functions, Manager and member functions, Customer functions
+4. Features not to be tested –Newer version of the system (scope is not clear)
+5. Approach – Combination of Black box and White box
+6. Item pass/fail criteria – Will be detailed in test cases. Application will be considered passed if there are less than 5 minor bugs, maximum of 1 major bug and no show stoppers
+7. Suspension & Resumption criteria – Showstoppers in the application / Non availability of resources (ex : OS/browser combinations)
+8. Test deliverables – Source code, Test Reports for Integration and System testing, Test cases for UAT, Reviewed Manuals, Defect Reports and Defect Metrics
+9. Staffing & training needs – Training on domain and performance testing tool
+10. Responsibilities – Project Manager, Test Lead, Test Engineers , Tool specialists and Customer/End Users
+11. Schedule: Time to complete the work
